@@ -15,27 +15,10 @@ public class UsersController : Controller
   [ProducesResponseType(typeof(ResponseErrorMessageJson), StatusCodes.Status400BadRequest)]
   public IActionResult Register(RequestUserJson request)
   {
-    try
-    {
-      var useCase = new RegisterUserUseCase();
-      var response = useCase.Execute(request);
+    var useCase = new RegisterUserUseCase();
+    var response = useCase.Execute(request);
 
-      return Created(string.Empty, response);
-    }
-    catch (NlwException e)
-    {
-      return BadRequest(new ResponseErrorMessageJson
-      {
-        Errors = e.GetErrorMessages()
-      });
-    }
-    catch(Exception e)
-    {
-      return StatusCode(StatusCodes.Status500InternalServerError,new ResponseErrorMessageJson
-      {
-        Errors = ["Internal Server Error" + e.Message]
-      });
-    }
+    return Created(string.Empty, response);
   }
 
   [HttpGet]
