@@ -1,0 +1,40 @@
+ .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# SQLite database files
+Db/*.db
+Db/*.db-shm
+Db/*.db-wal
+
+# IDE - VS Code
+.vscode/
+.vs/
+*.code-workspace
+
+# IDE - Visual Studio
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# Dependencies
+packages/
+*.nupkg
+
+# Environment files
+*.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Example.json
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.db
+*.db-shm
+*.db-wal

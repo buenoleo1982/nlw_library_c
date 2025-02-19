@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NlwApi", "NlwApi\NlwApi.csproj", "{00809DD0-2681-431D-AFEB-E52D80D5379D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlw.Communication", "Nlw.Communication\Nlw.Communication.csproj", "{3898261D-EF0C-4B3F-9953-A67B92E3F83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nlw.Exception", "Nlw.Exception\Nlw.Exception.csproj", "{A44CDAE6-129F-44E1-A416-5B7F140916FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00809DD0-2681-431D-AFEB-E52D80D5379D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00809DD0-2681-431D-AFEB-E52D80D5379D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00809DD0-2681-431D-AFEB-E52D80D5379D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00809DD0-2681-431D-AFEB-E52D80D5379D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3898261D-EF0C-4B3F-9953-A67B92E3F83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3898261D-EF0C-4B3F-9953-A67B92E3F83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3898261D-EF0C-4B3F-9953-A67B92E3F83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3898261D-EF0C-4B3F-9953-A67B92E3F83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A44CDAE6-129F-44E1-A416-5B7F140916FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A44CDAE6-129F-44E1-A416-5B7F140916FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A44CDAE6-129F-44E1-A416-5B7F140916FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A44CDAE6-129F-44E1-A416-5B7F140916FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
