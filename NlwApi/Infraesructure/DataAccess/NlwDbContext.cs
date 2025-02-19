@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using NlwApi.Domain;
 
-namespace NlwApi.Infraesructure;
+namespace NlwApi.Infraesructure.DataAccess;
 
 public class NlwDbContext : DbContext
 {
